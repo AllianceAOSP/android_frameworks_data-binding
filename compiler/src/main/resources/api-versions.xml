@@ -5074,6 +5074,8 @@
 		<method name="getCurrentModeType()I" />
 		<method name="getNightMode()I" />
 		<method name="setNightMode(I)V" />
+		<method name="getAllianceMode()I" />
+		<method name="setAllianceMode(I)V" />
 		<field name="ACTION_ENTER_CAR_MODE" />
 		<field name="ACTION_ENTER_DESK_MODE" />
 		<field name="ACTION_EXIT_CAR_MODE" />
@@ -5084,6 +5086,9 @@
 		<field name="MODE_NIGHT_AUTO" />
 		<field name="MODE_NIGHT_NO" />
 		<field name="MODE_NIGHT_YES" />
+		<field name="MODE_ALLIANCE_OTHER" />
+		<field name="MODE_ALLIANCE_NO" />
+		<field name="MODE_ALLIANCE_YES" />
 	</class>
 	<class name="android/app/WallpaperInfo" since="7">
 		<extends name="java/lang/Object" />
@@ -8945,6 +8950,10 @@
 		<field name="UI_MODE_TYPE_TELEVISION" since="13" />
 		<field name="UI_MODE_TYPE_UNDEFINED" since="8" />
 		<field name="UI_MODE_TYPE_WATCH" since="20" />
+		<field name="UI_MODE_ALLIANCE_MASK" since="8" />
+		<field name="UI_MODE_ALLIANCE_NO" since="8" />
+		<field name="UI_MODE_ALLIANCE_UNDEFINED" since="8" />
+		<field name="UI_MODE_ALLIANCE_YES" since="8" />
 		<field name="densityDpi" since="17" />
 		<field name="fontScale" />
 		<field name="hardKeyboardHidden" since="3" />
